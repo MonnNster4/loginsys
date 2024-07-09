@@ -2,14 +2,14 @@
 
 import React, { useState } from "react";
 
-
-
 import { Button } from "@/components/ui/button";
 
 import { Checkbox } from "@/components/ui/checkbox";
 import Registration from "./registration";
 
 import { Input } from "@/components/ui/input";
+
+import Image from "next/image";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -45,19 +45,19 @@ const Login = () => {
         <div className="lg:m-auto w-full  max-w-[500px] lg:max-w-[1000px] ">
           <div className="  lg:flex lg:flex-row ">
             <div className="lg:h-full lg:max-h-[900px] lg:w-[1300px]">
-              <img
+              <Image
                 src={"./static/img/citylights2.jpg"}
                 alt=""
                 className="h-56 w-full  lg:h-[31.2rem]"
-              ></img>
+              ></Image>
             </div>
             <div className="border p-8 h-[500px] lg:w-[650px] ">
               <div className="flex flex-col items-center gap-8">
-                <img
+                <Image
                   src={"./static/img/groupnblogo.png"}
                   alt=""
                   className="h-24 w-24 "
-                ></img>
+                ></Image>
 
                 <div className="space-y-8 w-full flex flex-col gap-4 ">
                   {buttonChange == true ? (
