@@ -54,8 +54,8 @@ const Login = () => {
             <div className="border p-8 h-[500px] lg:w-[650px] ">
               <div className="flex flex-col items-center gap-8">
                 <Image
-                  src={"./static/img/groupnblogo.png"}
-                  alt=""
+                  src="/static/img/groupnblogo.png"
+                  alt="gnb"
                   className="h-24 w-24 "
                 ></Image>
 
