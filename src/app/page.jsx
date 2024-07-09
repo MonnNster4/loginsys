@@ -46,7 +46,7 @@ const Login = () => {
           <div className="  lg:flex lg:flex-row ">
             <div className="lg:h-full lg:max-h-[900px] lg:w-[1300px]">
               <Image
-                src={"./static/img/citylights2.jpg"}
+                src="/static/img/citylights2.jpg"
                 alt=""
                 className="h-56 w-full  lg:h-[31.2rem]"
               ></Image>
